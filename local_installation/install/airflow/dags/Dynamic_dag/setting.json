@@ -1,0 +1,339 @@
+{"Test1": {
+    "id": {
+      "S": "Test1"
+    },
+    "ch_teams": {
+      "M": {
+        "ch_host": {
+          "S": "https://b1envenue.webhook.office.com/test"
+        },
+        "ch_name": {
+          "S": "Teams channel"
+        }
+      }
+    },
+    "configurations": {
+      "M": {
+        "NB_Retry": {
+          "N": "0"
+        },
+        "Retry_delay": {
+          "N": "1"
+        },
+        "Scheduling": {
+          "S": "0 0 0 0 0"
+        }
+      }
+    },
+    "DA": {
+      "L": [
+        {
+          "S": "email@gmail.com"
+        }
+      ]
+    },
+    "DE_CHECK": {
+      "BOOL": true
+    },
+    "DS": {
+      "L": [
+        {
+          "S": "email@gmail.com"
+        }
+      ]
+    },
+    "tables": {
+      "L": [
+        {
+          "M": {
+            "conv2csv": {
+              "BOOL": false
+            },
+            "name": {
+              "S": "data/raw/../../../rp_tind_rp_datapipeline_test/latest/"
+            }
+          }
+        },
+        {
+          "M": {
+            "conv2csv": {
+              "BOOL": false
+            },
+            "name": {
+              "S": "secure/datapipeline_test/../../../groupes_commerciaux_datapipeline_test/latest/"
+            }
+          }
+        },
+        {
+          "M": {
+            "conv2csv": {
+              "BOOL": true
+            },
+            "name": {
+              "S": "data/raw/../../../individus_concernes_datapipeline_test/latest/"
+            }
+          }
+        },
+        {
+          "M": {
+            "conv2csv": {
+              "BOOL": false
+            },
+            "name": {
+              "S": "data/raw/../../../digidecexport_datapipeline_test/latest/"
+            }
+          }
+        },
+        {
+          "M": {
+            "conv2csv": {
+              "BOOL": false
+            },
+            "name": {
+              "S": "data/raw/../../../ctr_dm_tpop_datapipeline_test/latest/"
+            }
+          }
+        },
+        {
+          "M": {
+            "conv2csv": {
+              "BOOL": true
+            },
+            "name": {
+              "S": "data/processed/../../../dossiers_sinistres_datetime_datapipeline_test/latest/"
+            }
+          }
+        },
+        {
+          "M": {
+            "conv2csv": {
+              "BOOL": true
+            },
+            "name": {
+              "S": "data/processed/../../../dataset_contrat_v1_datapipeline_test/latest/"
+            }
+          }
+        },
+        {
+          "M": {
+            "conv2csv": {
+              "BOOL": true
+            },
+            "name": {
+              "S": "secure/datapipeline_test/../../../custom_datapipeline_test_2/latest/"
+            }
+          }
+        },
+        {
+          "M": {
+            "conv2csv": {
+              "BOOL": false
+            },
+            "name": {
+              "S": "data/raw/../../../custom_datapipeline_test_1/latest/"
+            }
+          }
+        },
+        {
+          "M": {
+            "conv2csv": {
+              "BOOL": false
+            },
+            "name": {
+              "S": "data/processed/../../../dataset_at_v3_datapipeline_test/latest/"
+            }
+          }
+        },
+        {
+          "M": {
+            "conv2csv": {
+              "BOOL": false
+            },
+            "name": {
+              "S": "data/raw/corporate/contrat/occ/occ_dtm_contrat_datapipeline_test/latest/"
+            }
+          }
+        },
+        {
+          "M": {
+            "conv2csv": {
+              "BOOL": false
+            },
+            "name": {
+              "S": "data/raw/corporate/prestation/pleiade/troleapporteur_datapipeline_test/latest/"
+            }
+          }
+        }
+      ]
+     }
+   },
+   "Test2": {
+      "id": {
+        "S": "Test2"
+      },
+      "ch_teams": {
+        "M": {
+          "ch_host": {
+            "S": "https://b1envenue.webhook.office.com/test"
+          },
+          "ch_name": {
+            "S": "Teams channel"
+          }
+        }
+      },
+      "configurations": {
+        "M": {
+          "NB_Retry": {
+            "N": "0"
+          },
+          "Retry_delay": {
+            "N": "1"
+          },
+          "Scheduling": {
+            "S": "0 0 0 0 0"
+          }
+        }
+      },
+      "DA": {
+        "L": [
+          {
+            "S": "email@gmail.com"
+          }
+        ]
+      },
+      "DE_CHECK": {
+        "BOOL": true
+      },
+      "DS": {
+        "L": [
+          {
+            "S": "email@gmail.com"
+          }
+        ]
+      },
+      "tables": {
+        "L": [
+          {
+            "M": {
+              "conv2csv": {
+                "BOOL": false
+              },
+              "name": {
+                "S": "data/raw/../../../rp_tind_rp_datapipeline_test/latest/"
+              }
+            }
+          },
+          {
+            "M": {
+              "conv2csv": {
+                "BOOL": false
+              },
+              "name": {
+                "S": "secure/datapipeline_test/../../../groupes_commerciaux_datapipeline_test/latest/"
+              }
+            }
+          },
+          {
+            "M": {
+              "conv2csv": {
+                "BOOL": true
+              },
+              "name": {
+                "S": "data/raw/../../../individus_concernes_datapipeline_test/latest/"
+              }
+            }
+          },
+          {
+            "M": {
+              "conv2csv": {
+                "BOOL": false
+              },
+              "name": {
+                "S": "data/raw/../../../digidecexport_datapipeline_test/latest/"
+              }
+            }
+          },
+          {
+            "M": {
+              "conv2csv": {
+                "BOOL": false
+              },
+              "name": {
+                "S": "data/raw/../../../ctr_dm_tpop_datapipeline_test/latest/"
+              }
+            }
+          },
+          {
+            "M": {
+              "conv2csv": {
+                "BOOL": true
+              },
+              "name": {
+                "S": "data/processed/../../../dossiers_sinistres_datetime_datapipeline_test/latest/"
+              }
+            }
+          },
+          {
+            "M": {
+              "conv2csv": {
+                "BOOL": true
+              },
+              "name": {
+                "S": "data/processed/../../../dataset_contrat_v1_datapipeline_test/latest/"
+              }
+            }
+          },
+          {
+            "M": {
+              "conv2csv": {
+                "BOOL": true
+              },
+              "name": {
+                "S": "secure/datapipeline_test/../../../custom_datapipeline_test_2/latest/"
+              }
+            }
+          },
+          {
+            "M": {
+              "conv2csv": {
+                "BOOL": false
+              },
+              "name": {
+                "S": "data/raw/../../../custom_datapipeline_test_1/latest/"
+              }
+            }
+          },
+          {
+            "M": {
+              "conv2csv": {
+                "BOOL": false
+              },
+              "name": {
+                "S": "data/processed/../../../dataset_at_v3_datapipeline_test/latest/"
+              }
+            }
+          },
+          {
+            "M": {
+              "conv2csv": {
+                "BOOL": false
+              },
+              "name": {
+                "S": "data/raw/corporate/contrat/occ/occ_dtm_contrat_datapipeline_test/latest/"
+              }
+            }
+          },
+          {
+            "M": {
+              "conv2csv": {
+                "BOOL": false
+              },
+              "name": {
+                "S": "data/raw/corporate/prestation/pleiade/troleapporteur_datapipeline_test/latest/"
+              }
+            }
+          }
+        ]
+       }
+     }
+}
